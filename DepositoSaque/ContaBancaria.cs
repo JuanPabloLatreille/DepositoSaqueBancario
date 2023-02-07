@@ -10,7 +10,7 @@ namespace DepositoSaque
     {
         public int NumeroConta { get; private set; }
         public string TitularBancario { get; set; }
-        public double ValorInicial { get; set; }
+        public double ValorInicial { get; private set; }
 
         public ContaBancaria(int numeroconta, string titularbancario, double valorinicial)
         {
